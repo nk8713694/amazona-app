@@ -3,6 +3,9 @@ import data from "../data";
 import Rating from '../components/Rating'
 import { Link } from 'react-router-dom';
 export default function ProductScreen(props) {
+
+    console.log(props.match.params.id);
+    
   const product = data.products.find((x) => x._id == props.match.params.id);
   if (!product) {
     return <div>product not found baby</div>;
@@ -49,13 +52,13 @@ export default function ProductScreen(props) {
                     {product.countInStock > 0 ? (
                       <span className="success">IN STOCK</span>
                     ) : (
-                      <span className="error">unavailable</span>
+                      <span className="danger">unavailable</span>
                     )}
                   </div>
                 </div>
               </li>
               <li >
-                  <button class="primary block">Add to Cart</button>
+                  <button className="primary block">Add to Cart</button>
               </li>
             </ul>
           </div>

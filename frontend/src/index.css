@@ -185,8 +185,25 @@ img.large {
 .success {
   color: #20a020;
 }
-.error {
+.danger {
   color: #a02020;
+}
+
+.alert{
+  padding:10px;
+  border:1px solid transparent;
+  border-radius: 5px;
+}
+
+.alert-info{
+  background-color: #e0e0ff;
+  color:blue;
+}
+
+
+.alert-danger{
+  background-color: #e0e0ff;
+  color:red;
 }
 
 .card-body {
