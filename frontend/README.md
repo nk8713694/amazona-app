@@ -7,6 +7,7 @@ link to style.css
 created header, main and footer
 style elements
 Display Products
+<br />
 created products div
 add product attributes
 add link, image, name and price
@@ -19,6 +20,7 @@ copy style.css content to index.css
 replace class with className
 Share Code On Github
 Initialize git repository
+<br />
 Commit changes
 created github account
 created repo on github
@@ -30,6 +32,7 @@ created div.rating
 style div.rating, span and last span
 created Product component
 Use Rating component
+<br />
 Build Product Screen
 Install react-router-dom
 Use BrowserRouter and Route for Home Screen
