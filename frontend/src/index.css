@@ -227,3 +227,61 @@ img.small {
   max-width: 5rem;
   width: 100%;
 }
+
+
+/* form */
+
+.form{
+  max-width: 600px;
+  margin:0 auto;
+}
+/* direct div of form*/
+.form > div{  
+  display: flex;
+  flex-direction: column;
+  margin:10px;
+}
+.form label{
+
+  margin:10px 0px;
+   display: block;
+}
+
+input,
+select,
+textarea,
+button {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem #a4a4a4 solid;
+  font-size: 1.6rem;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+input:hover,
+select:hover,
+textarea:hover,
+button:hover {
+  border: 0.1rem #404040 solid;
+}
+
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+.dropdown-content {
+  position: absolute;
+  display: none;
+  right: 0;
+  min-width: 12rem;
+  padding: 1rem;
+  z-index: 1;
+  background-color: #203040;
+  margin: 0;
+  margin-top: 0.4rem;
+  border-radius: 0.5rem;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
